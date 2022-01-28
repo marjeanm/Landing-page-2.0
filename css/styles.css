@@ -1,3 +1,21 @@
 * {
-  color: indianred;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.links {
+  display: flex;
+  justify-content: flex-start;
+  visibility: hidden;
+}
+.dynamic,
+li,
+a {
+  /* this is for large displays- display: inline-block; */
+  padding: 2px;
 }
